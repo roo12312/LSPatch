@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.activity
+package com.lspatch.android.ui.activity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -15,13 +15,13 @@ import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import com.ramcosta.composedestinations.DestinationsNavHost
-import org.lsposed.lspatch.ui.page.BottomBarDestination
-import org.lsposed.lspatch.ui.page.NavGraphs
-import org.lsposed.lspatch.ui.page.appCurrentDestinationAsState
-import org.lsposed.lspatch.ui.page.destinations.Destination
-import org.lsposed.lspatch.ui.page.startAppDestination
-import org.lsposed.lspatch.ui.theme.LSPTheme
-import org.lsposed.lspatch.ui.util.LocalSnackbarHost
+import com.lspatch.android.ui.page.BottomBarDestination
+import com.lspatch.android.ui.page.NavGraphs
+import com.lspatch.android.ui.page.appCurrentDestinationAsState
+import com.lspatch.android.ui.page.destinations.Destination
+import com.lspatch.android.ui.page.startAppDestination
+import com.lspatch.android.ui.theme.LSPTheme
+import com.lspatch.android.ui.util.LocalSnackbarHost
 
 class MainActivity : ComponentActivity() {
 

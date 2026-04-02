@@ -1,11 +1,11 @@
-package org.lsposed.lspatch.database.dao
+package com.lspatch.android.database.dao
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
-import org.lsposed.lspatch.database.entity.Module
-import org.lsposed.lspatch.database.entity.Scope
+import com.lspatch.android.database.entity.Module
+import com.lspatch.android.database.entity.Scope
 
 @Dao
 interface ScopeDao {

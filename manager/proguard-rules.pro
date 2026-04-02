@@ -10,10 +10,10 @@
 }
 
 -keep class com.beust.jcommander.** { *; }
--keep class org.lsposed.lspatch.database.** { *; }
--keep class org.lsposed.lspatch.Patcher$Options { *; }
--keep class org.lsposed.lspatch.share.LSPConfig { *; }
--keep class org.lsposed.lspatch.share.PatchConfig { *; }
+-keep class com.lspatch.android.database.** { *; }
+-keep class com.lspatch.android.Patcher$Options { *; }
+-keep class com.lspatch.android.share.LSPConfig { *; }
+-keep class com.lspatch.android.share.PatchConfig { *; }
 -keepclassmembers class org.lsposed.patch.LSPatch {
     private <fields>;
 }

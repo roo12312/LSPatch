@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.viewmodel
+package com.lspatch.android.ui.viewmodel
 
 import android.util.Log
 import androidx.compose.runtime.getValue
@@ -8,10 +8,10 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.Patcher
-import org.lsposed.lspatch.share.PatchConfig
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.LSPPackageManager.AppInfo
+import com.lspatch.android.Patcher
+import com.lspatch.android.share.PatchConfig
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.LSPPackageManager.AppInfo
 import org.lsposed.patch.util.Logger
 
 class NewPatchViewModel : ViewModel() {

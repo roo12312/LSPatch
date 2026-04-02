@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.share;
+package com.lspatch.android.share;
 
 public class LSPConfig {
 

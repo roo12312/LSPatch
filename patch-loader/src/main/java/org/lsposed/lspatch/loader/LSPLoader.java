@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.loader;
+package com.lspatch.android.loader;
 
 import android.app.ActivityThread;
 import android.app.LoadedApk;

@@ -1,13 +1,13 @@
-package org.lsposed.lspatch
+package com.lspatch.android
 
 import androidx.core.net.toUri
 import androidx.documentfile.provider.DocumentFile
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.lsposed.lspatch.config.Configs
-import org.lsposed.lspatch.config.MyKeyStore
-import org.lsposed.lspatch.share.Constants
-import org.lsposed.lspatch.share.PatchConfig
+import com.lspatch.android.config.Configs
+import com.lspatch.android.config.MyKeyStore
+import com.lspatch.android.share.Constants
+import com.lspatch.android.share.PatchConfig
 import org.lsposed.patch.LSPatch
 import org.lsposed.patch.util.Logger
 import java.io.IOException

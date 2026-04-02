@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.viewstate
+package com.lspatch.android.ui.viewstate
 
 sealed class ProcessingState<out T> {
     object Idle : ProcessingState<Nothing>()

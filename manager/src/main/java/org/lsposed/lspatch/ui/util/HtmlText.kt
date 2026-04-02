@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.util
+package com.lspatch.android.ui.util
 
 import android.text.method.LinkMovementMethod
 import android.widget.TextView

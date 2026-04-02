@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.manager
+package com.lspatch.android.manager
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -6,8 +6,8 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.util.Log
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.util.LSPPackageManager
+import com.lspatch.android.lspApp
+import com.lspatch.android.util.LSPPackageManager
 
 class AppBroadcastReceiver : BroadcastReceiver() {
 

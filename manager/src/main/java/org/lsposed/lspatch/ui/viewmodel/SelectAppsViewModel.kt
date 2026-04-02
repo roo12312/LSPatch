@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.viewmodel
+package com.lspatch.android.ui.viewmodel
 
 import android.util.Log
 import androidx.compose.runtime.getValue
@@ -8,8 +8,8 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.LSPPackageManager.AppInfo
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.LSPPackageManager.AppInfo
 
 class SelectAppsViewModel : ViewModel() {
 

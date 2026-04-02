@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page
+package com.lspatch.android.ui.page
 
 import android.app.Activity
 import android.content.ClipData
@@ -35,14 +35,14 @@ import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.annotation.RootNavGraph
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.share.LSPConfig
-import org.lsposed.lspatch.ui.component.CenterTopBar
-import org.lsposed.lspatch.ui.page.destinations.ManageScreenDestination
-import org.lsposed.lspatch.ui.page.destinations.NewPatchScreenDestination
-import org.lsposed.lspatch.ui.util.HtmlText
-import org.lsposed.lspatch.ui.util.LocalSnackbarHost
-import org.lsposed.lspatch.util.ShizukuApi
+import com.lspatch.android.R
+import com.lspatch.android.share.LSPConfig
+import com.lspatch.android.ui.component.CenterTopBar
+import com.lspatch.android.ui.page.destinations.ManageScreenDestination
+import com.lspatch.android.ui.page.destinations.NewPatchScreenDestination
+import com.lspatch.android.ui.util.HtmlText
+import com.lspatch.android.ui.util.LocalSnackbarHost
+import com.lspatch.android.util.ShizukuApi
 import rikka.shizuku.Shizuku
 
 @OptIn(ExperimentalMaterial3Api::class)

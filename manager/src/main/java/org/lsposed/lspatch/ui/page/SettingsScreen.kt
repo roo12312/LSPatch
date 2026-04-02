@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page
+package com.lspatch.android.ui.page
 
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -25,13 +25,13 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.ramcosta.composedestinations.annotation.Destination
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.config.Configs
-import org.lsposed.lspatch.config.MyKeyStore
-import org.lsposed.lspatch.ui.component.AnywhereDropdown
-import org.lsposed.lspatch.ui.component.CenterTopBar
-import org.lsposed.lspatch.ui.component.settings.SettingsItem
-import org.lsposed.lspatch.ui.component.settings.SettingsSwitch
+import com.lspatch.android.R
+import com.lspatch.android.config.Configs
+import com.lspatch.android.config.MyKeyStore
+import com.lspatch.android.ui.component.AnywhereDropdown
+import com.lspatch.android.ui.component.CenterTopBar
+import com.lspatch.android.ui.component.settings.SettingsItem
+import com.lspatch.android.ui.component.settings.SettingsSwitch
 import java.io.IOException
 import java.security.GeneralSecurityException
 import java.security.KeyStore

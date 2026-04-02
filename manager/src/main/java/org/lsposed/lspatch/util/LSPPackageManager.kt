@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.util
+package com.lspatch.android.util
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -22,10 +22,10 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.parcelize.Parcelize
 import me.zhanghai.android.appiconloader.AppIconLoader
-import org.lsposed.lspatch.config.ConfigManager
-import org.lsposed.lspatch.config.Configs
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.share.Constants
+import com.lspatch.android.config.ConfigManager
+import com.lspatch.android.config.Configs
+import com.lspatch.android.lspApp
+import com.lspatch.android.share.Constants
 import java.io.File
 import java.io.IOException
 import java.text.Collator

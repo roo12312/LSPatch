@@ -91,7 +91,7 @@ void PatchLoader::InitHooks(JNIEnv* env) {
 
 void PatchLoader::SetupEntryClass(JNIEnv* env) {
     if (auto entry_class = FindClassFromLoader(env, GetCurrentClassLoader(),
-                                               "org.lsposed.lspatch.loader.LSPApplication")) {
+                                               "com.lspatch.android.loader.LSPApplication")) {
         entry_class_ = JNI_NewGlobalRef(env, entry_class);
     }
 }

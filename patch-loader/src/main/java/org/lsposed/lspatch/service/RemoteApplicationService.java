@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.service;
+package com.lspatch.android.service;
 
 import android.annotation.SuppressLint;
 import android.content.ComponentName;
@@ -16,7 +16,7 @@ import android.os.UserHandle;
 import android.util.Log;
 import android.widget.Toast;
 
-import org.lsposed.lspatch.share.Constants;
+import com.lspatch.android.share.Constants;
 import org.lsposed.lspd.models.Module;
 import org.lsposed.lspd.service.ILSPApplicationService;
 

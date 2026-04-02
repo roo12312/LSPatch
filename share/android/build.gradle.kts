@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "org.lsposed.lspatch.share"
+    namespace = "com.lspatch.android.share"
 
     buildFeatures {
         androidResources = false

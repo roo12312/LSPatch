@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.component.settings
+package com.lspatch.android.ui.component.settings
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column

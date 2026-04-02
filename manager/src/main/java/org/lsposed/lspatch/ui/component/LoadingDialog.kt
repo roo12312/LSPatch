@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.component
+package com.lspatch.android.ui.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

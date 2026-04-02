@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page.manage
+package com.lspatch.android.ui.page.manage
 
 import android.content.Intent
 import android.net.Uri
@@ -22,11 +22,11 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.lifecycle.viewmodel.compose.viewModel
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.ui.component.AnywhereDropdown
-import org.lsposed.lspatch.ui.component.AppItem
-import org.lsposed.lspatch.ui.viewmodel.manage.ModuleManageViewModel
-import org.lsposed.lspatch.util.LSPPackageManager
+import com.lspatch.android.R
+import com.lspatch.android.ui.component.AnywhereDropdown
+import com.lspatch.android.ui.component.AppItem
+import com.lspatch.android.ui.viewmodel.manage.ModuleManageViewModel
+import com.lspatch.android.util.LSPPackageManager
 
 @Composable
 fun ModuleManageBody() {

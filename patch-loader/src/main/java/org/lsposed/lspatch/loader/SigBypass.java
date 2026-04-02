@@ -1,6 +1,6 @@
-package org.lsposed.lspatch.loader;
+package com.lspatch.android.loader;
 
-import static org.lsposed.lspatch.share.Constants.ORIGINAL_APK_ASSET_PATH;
+import static com.lspatch.android.share.Constants.ORIGINAL_APK_ASSET_PATH;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -14,8 +14,8 @@ import android.util.Log;
 
 import com.google.gson.JsonSyntaxException;
 
-import org.lsposed.lspatch.loader.util.XLog;
-import org.lsposed.lspatch.share.Constants;
+import com.lspatch.android.loader.util.XLog;
+import com.lspatch.android.share.Constants;
 import org.json.JSONException;
 import org.json.JSONObject;
 

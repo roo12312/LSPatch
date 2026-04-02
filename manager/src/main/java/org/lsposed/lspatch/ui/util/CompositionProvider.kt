@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.util
+package com.lspatch.android.ui.util
 
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.runtime.compositionLocalOf

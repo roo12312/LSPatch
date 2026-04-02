@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page
+package com.lspatch.android.ui.page
 
 import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons
@@ -6,8 +6,8 @@ import androidx.compose.material.icons.filled.*
 import androidx.compose.material.icons.outlined.*
 import androidx.compose.ui.graphics.vector.ImageVector
 import com.ramcosta.composedestinations.spec.DirectionDestinationSpec
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.ui.page.destinations.*
+import com.lspatch.android.R
+import com.lspatch.android.ui.page.destinations.*
 
 enum class BottomBarDestination(
     val direction: DirectionDestinationSpec,

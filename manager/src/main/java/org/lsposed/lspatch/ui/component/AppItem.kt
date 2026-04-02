@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.component
+package com.lspatch.android.ui.component
 
 import android.graphics.drawable.GradientDrawable
 import androidx.compose.foundation.layout.*
@@ -19,7 +19,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.graphics.drawable.toBitmap
-import org.lsposed.lspatch.ui.theme.LSPTheme
+import com.lspatch.android.ui.theme.LSPTheme
 
 @Composable
 fun AppItem(

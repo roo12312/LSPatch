@@ -1,10 +1,10 @@
-package org.lsposed.lspatch.ui.viewmodel.manage
+package com.lspatch.android.ui.viewmodel.manage
 
 import android.util.Log
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.lifecycle.ViewModel
-import org.lsposed.lspatch.util.LSPPackageManager
+import com.lspatch.android.util.LSPPackageManager
 
 class ModuleManageViewModel : ViewModel() {
 

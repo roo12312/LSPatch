@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.manager
+package com.lspatch.android.manager
 
 import android.os.Binder
 import android.os.Bundle
@@ -6,8 +6,8 @@ import android.os.IBinder
 import android.os.ParcelFileDescriptor
 import android.util.Log
 import kotlinx.coroutines.runBlocking
-import org.lsposed.lspatch.config.ConfigManager
-import org.lsposed.lspatch.lspApp
+import com.lspatch.android.config.ConfigManager
+import com.lspatch.android.lspApp
 import org.lsposed.lspd.models.Module
 import org.lsposed.lspd.service.ILSPApplicationService
 

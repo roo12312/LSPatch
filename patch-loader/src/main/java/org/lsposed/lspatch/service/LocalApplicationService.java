@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.service;
+package com.lspatch.android.service;
 
 import android.content.Context;
 import android.os.Environment;
@@ -7,9 +7,9 @@ import android.os.ParcelFileDescriptor;
 import android.os.RemoteException;
 import android.util.Log;
 
-import org.lsposed.lspatch.loader.util.FileUtils;
-import org.lsposed.lspatch.share.Constants;
-import org.lsposed.lspatch.util.ModuleLoader;
+import com.lspatch.android.loader.util.FileUtils;
+import com.lspatch.android.share.Constants;
+import com.lspatch.android.util.ModuleLoader;
 import org.lsposed.lspd.models.Module;
 import org.lsposed.lspd.service.ILSPApplicationService;
 

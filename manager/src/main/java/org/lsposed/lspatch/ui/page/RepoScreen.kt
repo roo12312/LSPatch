@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page
+package com.lspatch.android.ui.page
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import com.ramcosta.composedestinations.annotation.Destination
-import org.lsposed.lspatch.ui.component.CenterTopBar
+import com.lspatch.android.ui.component.CenterTopBar
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Destination

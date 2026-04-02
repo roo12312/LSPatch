@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.manager
+package com.lspatch.android.manager
 
 import android.app.Service
 import android.content.Intent

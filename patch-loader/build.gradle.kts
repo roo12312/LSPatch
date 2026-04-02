@@ -25,7 +25,7 @@ android {
             path("src/main/jni/CMakeLists.txt")
         }
     }
-    namespace = "org.lsposed.lspatch.loader"
+    namespace = "com.lspatch.android.loader"
 }
 
 androidComponents.onVariants { variant ->

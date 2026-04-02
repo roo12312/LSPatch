@@ -1,4 +1,4 @@
-package org.lsposed.lspatch
+package com.lspatch.android
 
 import android.app.Application
 import android.content.Context
@@ -7,9 +7,9 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.lsposed.hiddenapibypass.HiddenApiBypass
-import org.lsposed.lspatch.manager.AppBroadcastReceiver
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.ShizukuApi
+import com.lspatch.android.manager.AppBroadcastReceiver
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.ShizukuApi
 import java.io.File
 
 lateinit var lspApp: LSPApplication

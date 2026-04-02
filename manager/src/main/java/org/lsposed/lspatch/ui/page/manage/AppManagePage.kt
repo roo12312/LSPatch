@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page.manage
+package com.lspatch.android.ui.page.manage
 
 import android.app.Activity
 import android.content.ClipData
@@ -37,27 +37,27 @@ import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import com.ramcosta.composedestinations.result.NavResult
 import com.ramcosta.composedestinations.result.ResultRecipient
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.BuildConfig
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.config.ConfigManager
-import org.lsposed.lspatch.config.Configs
-import org.lsposed.lspatch.database.entity.Module
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.share.Constants
-import org.lsposed.lspatch.share.LSPConfig
-import org.lsposed.lspatch.ui.component.AnywhereDropdown
-import org.lsposed.lspatch.ui.component.AppItem
-import org.lsposed.lspatch.ui.component.LoadingDialog
-import org.lsposed.lspatch.ui.page.ACTION_APPLIST
-import org.lsposed.lspatch.ui.page.ACTION_STORAGE
-import org.lsposed.lspatch.ui.page.SelectAppsResult
-import org.lsposed.lspatch.ui.page.destinations.NewPatchScreenDestination
-import org.lsposed.lspatch.ui.page.destinations.SelectAppsScreenDestination
-import org.lsposed.lspatch.ui.util.LocalSnackbarHost
-import org.lsposed.lspatch.ui.viewmodel.manage.AppManageViewModel
-import org.lsposed.lspatch.ui.viewstate.ProcessingState
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.ShizukuApi
+import com.lspatch.android.BuildConfig
+import com.lspatch.android.R
+import com.lspatch.android.config.ConfigManager
+import com.lspatch.android.config.Configs
+import com.lspatch.android.database.entity.Module
+import com.lspatch.android.lspApp
+import com.lspatch.android.share.Constants
+import com.lspatch.android.share.LSPConfig
+import com.lspatch.android.ui.component.AnywhereDropdown
+import com.lspatch.android.ui.component.AppItem
+import com.lspatch.android.ui.component.LoadingDialog
+import com.lspatch.android.ui.page.ACTION_APPLIST
+import com.lspatch.android.ui.page.ACTION_STORAGE
+import com.lspatch.android.ui.page.SelectAppsResult
+import com.lspatch.android.ui.page.destinations.NewPatchScreenDestination
+import com.lspatch.android.ui.page.destinations.SelectAppsScreenDestination
+import com.lspatch.android.ui.util.LocalSnackbarHost
+import com.lspatch.android.ui.viewmodel.manage.AppManageViewModel
+import com.lspatch.android.ui.viewstate.ProcessingState
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.ShizukuApi
 import java.io.IOException
 
 private const val TAG = "AppManagePage"

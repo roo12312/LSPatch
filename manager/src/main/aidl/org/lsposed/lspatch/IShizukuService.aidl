@@ -1,4 +1,4 @@
-package org.lsposed.lspatch;
+package com.lspatch.android;
 
 interface IShizukuService {
     // Executes a shell command and returns the output

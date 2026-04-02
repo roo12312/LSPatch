@@ -1,10 +1,10 @@
 package org.lsposed.patch;
 
-import static org.lsposed.lspatch.share.Constants.CONFIG_ASSET_PATH;
-import static org.lsposed.lspatch.share.Constants.EMBEDDED_MODULES_ASSET_PATH;
-import static org.lsposed.lspatch.share.Constants.LOADER_DEX_ASSET_PATH;
-import static org.lsposed.lspatch.share.Constants.ORIGINAL_APK_ASSET_PATH;
-import static org.lsposed.lspatch.share.Constants.PROXY_APP_COMPONENT_FACTORY;
+import static com.lspatch.android.share.Constants.CONFIG_ASSET_PATH;
+import static com.lspatch.android.share.Constants.EMBEDDED_MODULES_ASSET_PATH;
+import static com.lspatch.android.share.Constants.LOADER_DEX_ASSET_PATH;
+import static com.lspatch.android.share.Constants.ORIGINAL_APK_ASSET_PATH;
+import static com.lspatch.android.share.Constants.PROXY_APP_COMPONENT_FACTORY;
 
 import com.android.tools.build.apkzlib.sign.SigningExtension;
 import com.android.tools.build.apkzlib.sign.SigningOptions;
@@ -22,9 +22,9 @@ import com.wind.meditor.property.ModificationProperty;
 import com.wind.meditor.utils.NodeValue;
 
 import org.apache.commons.io.FilenameUtils;
-import org.lsposed.lspatch.share.Constants;
-import org.lsposed.lspatch.share.LSPConfig;
-import org.lsposed.lspatch.share.PatchConfig;
+import com.lspatch.android.share.Constants;
+import com.lspatch.android.share.LSPConfig;
+import com.lspatch.android.share.PatchConfig;
 import org.lsposed.patch.util.ApkSignatureHelper;
 import org.lsposed.patch.util.JavaLogger;
 import org.lsposed.patch.util.Logger;

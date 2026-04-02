@@ -1,9 +1,9 @@
-package org.lsposed.lspatch.config
+package com.lspatch.android.config
 
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.ui.util.delegateStateOf
-import org.lsposed.lspatch.ui.util.getValue
-import org.lsposed.lspatch.ui.util.setValue
+import com.lspatch.android.lspApp
+import com.lspatch.android.ui.util.delegateStateOf
+import com.lspatch.android.ui.util.getValue
+import com.lspatch.android.ui.util.setValue
 
 object Configs {
 

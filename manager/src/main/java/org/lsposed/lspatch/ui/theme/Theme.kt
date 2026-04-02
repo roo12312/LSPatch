@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.theme
+package com.lspatch.android.ui.theme
 
 import android.app.Activity
 import android.os.Build

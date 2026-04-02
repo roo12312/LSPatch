@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.viewmodel.manage
+package com.lspatch.android.ui.viewmodel.manage
 
 import android.content.pm.PackageInstaller
 import android.util.Base64
@@ -13,14 +13,14 @@ import com.google.gson.Gson
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.lsposed.lspatch.Patcher
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.share.Constants
-import org.lsposed.lspatch.share.PatchConfig
-import org.lsposed.lspatch.ui.viewstate.ProcessingState
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.LSPPackageManager.AppInfo
-import org.lsposed.lspatch.util.ShizukuApi
+import com.lspatch.android.Patcher
+import com.lspatch.android.lspApp
+import com.lspatch.android.share.Constants
+import com.lspatch.android.share.PatchConfig
+import com.lspatch.android.ui.viewstate.ProcessingState
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.LSPPackageManager.AppInfo
+import com.lspatch.android.util.ShizukuApi
 import org.lsposed.patch.util.Logger
 import java.io.FileNotFoundException
 import java.util.zip.ZipFile

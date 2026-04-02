@@ -1,6 +1,6 @@
-package org.lsposed.lspatch
+package com.lspatch.android
 
-import org.lsposed.lspatch.IShizukuService
+import com.lspatch.android.IShizukuService
 import kotlin.system.exitProcess
 
 class ShizukuService : IShizukuService.Stub() {

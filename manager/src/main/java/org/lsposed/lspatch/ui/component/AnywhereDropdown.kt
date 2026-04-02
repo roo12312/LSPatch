@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.component
+package com.lspatch.android.ui.component
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.LocalIndication

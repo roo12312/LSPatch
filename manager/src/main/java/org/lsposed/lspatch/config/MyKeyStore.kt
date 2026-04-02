@@ -1,11 +1,11 @@
-package org.lsposed.lspatch.config
+package com.lspatch.android.config
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.lsposed.lspatch.lspApp
+import com.lspatch.android.lspApp
 import java.io.File
 
 object MyKeyStore {

@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page
+package com.lspatch.android.ui.page
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -39,23 +39,23 @@ import com.ramcosta.composedestinations.result.NavResult
 import com.ramcosta.composedestinations.result.ResultRecipient
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.ui.component.AnywhereDropdown
-import org.lsposed.lspatch.ui.component.SelectionColumn
-import org.lsposed.lspatch.ui.component.ShimmerAnimation
-import org.lsposed.lspatch.ui.component.settings.SettingsCheckBox
-import org.lsposed.lspatch.ui.component.settings.SettingsItem
-import org.lsposed.lspatch.ui.page.destinations.SelectAppsScreenDestination
-import org.lsposed.lspatch.ui.util.LocalSnackbarHost
-import org.lsposed.lspatch.ui.util.isScrolledToEnd
-import org.lsposed.lspatch.ui.util.lastItemIndex
-import org.lsposed.lspatch.ui.viewmodel.NewPatchViewModel
-import org.lsposed.lspatch.ui.viewmodel.NewPatchViewModel.PatchState
-import org.lsposed.lspatch.ui.viewmodel.NewPatchViewModel.ViewAction
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.LSPPackageManager.AppInfo
-import org.lsposed.lspatch.util.ShizukuApi
+import com.lspatch.android.R
+import com.lspatch.android.lspApp
+import com.lspatch.android.ui.component.AnywhereDropdown
+import com.lspatch.android.ui.component.SelectionColumn
+import com.lspatch.android.ui.component.ShimmerAnimation
+import com.lspatch.android.ui.component.settings.SettingsCheckBox
+import com.lspatch.android.ui.component.settings.SettingsItem
+import com.lspatch.android.ui.page.destinations.SelectAppsScreenDestination
+import com.lspatch.android.ui.util.LocalSnackbarHost
+import com.lspatch.android.ui.util.isScrolledToEnd
+import com.lspatch.android.ui.util.lastItemIndex
+import com.lspatch.android.ui.viewmodel.NewPatchViewModel
+import com.lspatch.android.ui.viewmodel.NewPatchViewModel.PatchState
+import com.lspatch.android.ui.viewmodel.NewPatchViewModel.ViewAction
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.LSPPackageManager.AppInfo
+import com.lspatch.android.util.ShizukuApi
 
 private const val TAG = "NewPatchPage"
 

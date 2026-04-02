@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page
+package com.lspatch.android.ui.page
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -16,12 +16,12 @@ import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import com.ramcosta.composedestinations.result.ResultRecipient
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.ui.component.CenterTopBar
-import org.lsposed.lspatch.ui.page.destinations.SelectAppsScreenDestination
-import org.lsposed.lspatch.ui.page.manage.AppManageBody
-import org.lsposed.lspatch.ui.page.manage.AppManageFab
-import org.lsposed.lspatch.ui.page.manage.ModuleManageBody
+import com.lspatch.android.R
+import com.lspatch.android.ui.component.CenterTopBar
+import com.lspatch.android.ui.page.destinations.SelectAppsScreenDestination
+import com.lspatch.android.ui.page.manage.AppManageBody
+import com.lspatch.android.ui.page.manage.AppManageFab
+import com.lspatch.android.ui.page.manage.ModuleManageBody
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalPagerApi::class)
 @Destination

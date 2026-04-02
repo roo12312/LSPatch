@@ -1,4 +1,4 @@
--keep class org.lsposed.lspatch.metaloader.LSPAppComponentFactoryStub {
+-keep class com.lspatch.android.metaloader.LSPAppComponentFactoryStub {
     public static byte[] dex;
     <init>();
 }

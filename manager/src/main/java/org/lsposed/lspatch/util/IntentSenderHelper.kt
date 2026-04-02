@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.util
+package com.lspatch.android.util
 
 import android.content.IIntentReceiver
 import android.content.IIntentSender

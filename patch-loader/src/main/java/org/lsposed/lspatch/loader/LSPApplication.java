@@ -1,7 +1,7 @@
-package org.lsposed.lspatch.loader;
+package com.lspatch.android.loader;
 
-import static org.lsposed.lspatch.share.Constants.CONFIG_ASSET_PATH;
-import static org.lsposed.lspatch.share.Constants.ORIGINAL_APK_ASSET_PATH;
+import static com.lspatch.android.share.Constants.CONFIG_ASSET_PATH;
+import static com.lspatch.android.share.Constants.ORIGINAL_APK_ASSET_PATH;
 
 import android.app.ActivityThread;
 import android.app.LoadedApk;
@@ -13,10 +13,10 @@ import android.os.RemoteException;
 import android.system.Os;
 import android.util.Log;
 
-import org.lsposed.lspatch.loader.util.FileUtils;
-import org.lsposed.lspatch.loader.util.XLog;
-import org.lsposed.lspatch.service.LocalApplicationService;
-import org.lsposed.lspatch.service.RemoteApplicationService;
+import com.lspatch.android.loader.util.FileUtils;
+import com.lspatch.android.loader.util.XLog;
+import com.lspatch.android.service.LocalApplicationService;
+import com.lspatch.android.service.RemoteApplicationService;
 import org.lsposed.lspd.core.Startup;
 import org.lsposed.lspd.service.ILSPApplicationService;
 import org.json.JSONObject;
