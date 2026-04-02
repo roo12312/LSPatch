@@ -110,7 +110,7 @@ void PatchLoader::Load(JNIEnv* env) {
             [](auto symbol) { return GetArt()->getSymbPrefixFirstAddress(symbol); },
     };
 
-    auto stub = JNI_FindClass(env, "org/lsposed/lspatch/metaloader/LSPAppComponentFactoryStub");
+    auto stub = JNI_FindClass(env, "com/lspatch/android/metaloader/LSPAppComponentFactoryStub");
     auto dex_field = JNI_GetStaticFieldID(env, stub, "dex", "[B");
 
     ScopedLocalRef<jbyteArray> array = JNI_GetStaticObjectField(env, stub, dex_field);
