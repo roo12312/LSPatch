@@ -1,17 +1,17 @@
-package org.lsposed.lspatch.ui.page
+package com.lspatch.android.ui.page
 
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
-import org.lsposed.lspatch.data.model.ModuleRef
-import org.lsposed.lspatch.data.model.PatchMode
-import org.lsposed.lspatch.data.model.PatchOrigin
-import org.lsposed.lspatch.data.model.PatchRequest
-import org.lsposed.lspatch.data.model.PatchTarget
-import org.lsposed.lspatch.data.model.mode
-import org.lsposed.lspatch.data.repository.PatchInputs
-import org.lsposed.lspatch.data.repository.PatchRequestStore
-import org.lsposed.lspatch.ui.page.destinations.NewPatchScreenDestination
-import org.lsposed.lspatch.ui.page.destinations.SelectPatchTargetScreenDestination
-import org.lsposed.lspatch.util.LSPPackageManager.AppInfo
+import com.lspatch.android.data.model.ModuleRef
+import com.lspatch.android.data.model.PatchMode
+import com.lspatch.android.data.model.PatchOrigin
+import com.lspatch.android.data.model.PatchRequest
+import com.lspatch.android.data.model.PatchTarget
+import com.lspatch.android.data.model.mode
+import com.lspatch.android.data.repository.PatchInputs
+import com.lspatch.android.data.repository.PatchRequestStore
+import com.lspatch.android.ui.page.destinations.NewPatchScreenDestination
+import com.lspatch.android.ui.page.destinations.SelectPatchTargetScreenDestination
+import com.lspatch.android.util.LSPPackageManager.AppInfo
 import java.util.UUID
 
 /**

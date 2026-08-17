@@ -45,7 +45,7 @@ android {
         buildConfig = true
     }
 
-    namespace = "org.lsposed.lspatch"
+    namespace = "com.lspatch.android"
 }
 
 // Pinned, not inferred. compose-destinations otherwise derives the generated package from the
@@ -53,7 +53,7 @@ android {
 // ui.page would silently move NavGraphs and ui.page.destinations.* up a level and break every
 // import that names them.
 ksp {
-    arg("compose-destinations.codeGenPackageName", "org.lsposed.lspatch.ui.page")
+    arg("compose-destinations.codeGenPackageName", "com.lspatch.android.ui.page")
 }
 
 afterEvaluate {

@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.service;
+package com.lspatch.android.service;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
@@ -7,9 +7,9 @@ import android.os.IBinder;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
-import org.lsposed.lspatch.loader.util.FileUtils;
-import org.lsposed.lspatch.share.Constants;
-import org.lsposed.lspatch.util.ModuleLoader;
+import com.lspatch.android.loader.util.FileUtils;
+import com.lspatch.android.share.Constants;
+import com.lspatch.android.util.ModuleLoader;
 import org.matrix.vector.ipc.IFrameworkService;
 import org.matrix.vector.ipc.IProcessChannel;
 import org.matrix.vector.ipc.LoadedModule;

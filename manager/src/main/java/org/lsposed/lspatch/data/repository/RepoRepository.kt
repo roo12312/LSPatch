@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.data.repository
+package com.lspatch.android.data.repository
 
 import android.content.Context
 import android.util.Log
@@ -19,7 +19,7 @@ import org.matrix.vector.ui.store.OnlineModule
 import org.matrix.vector.ui.store.RepoVersion
 import org.matrix.vector.ui.store.StoreCatalog
 import org.matrix.vector.ui.store.StoreDataSource
-import org.lsposed.lspatch.util.LSPPackageManager
+import com.lspatch.android.util.LSPPackageManager
 import java.io.InputStreamReader
 import java.net.HttpURLConnection
 import java.net.URL

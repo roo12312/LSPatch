@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.share;
+package com.lspatch.android.share;
 
 public class Constants {
 
@@ -9,8 +9,8 @@ public class Constants {
     final static public String EMBEDDED_MODULES_ASSET_PATH = "assets/lspatch/modules/";
 
     final static public String PATCH_FILE_SUFFIX = "-lspatched.apk";
-    final static public String PROXY_APP_COMPONENT_FACTORY = "org.lsposed.lspatch.metaloader.LSPAppComponentFactoryStub";
-    final static public String MANAGER_PACKAGE_NAME = "org.lsposed.lspatch";
+    final static public String PROXY_APP_COMPONENT_FACTORY = "com.lspatch.android.metaloader.LSPAppComponentFactoryStub";
+    final static public String MANAGER_PACKAGE_NAME = "com.lspatch.android";
     final static public int MIN_ROLLING_VERSION_CODE = 348;
 
     final static public int SIGBYPASS_LV_DISABLE = 0;

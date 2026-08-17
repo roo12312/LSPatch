@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page.manage
+package com.lspatch.android.ui.page.manage
 
 import android.app.Activity
 import android.content.Intent
@@ -31,13 +31,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.ui.util.LocalSnackbarHost
-import org.lsposed.lspatch.ui.viewmodel.manage.AppManageViewModel
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.LSPPackageManager.AppInfo
-import org.lsposed.lspatch.util.ShizukuApi
+import com.lspatch.android.R
+import com.lspatch.android.lspApp
+import com.lspatch.android.ui.util.LocalSnackbarHost
+import com.lspatch.android.ui.viewmodel.manage.AppManageViewModel
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.LSPPackageManager.AppInfo
+import com.lspatch.android.util.ShizukuApi
 import org.matrix.vector.ui.ActionDrawerHeader
 import org.matrix.vector.ui.ActionDrawerItem
 import org.matrix.vector.ui.LocalDialogLocalizer

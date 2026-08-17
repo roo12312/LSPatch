@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.database.entity
+package com.lspatch.android.database.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

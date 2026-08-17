@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.share.remote;
+package com.lspatch.android.share.remote;
 
 import java.util.List;
 

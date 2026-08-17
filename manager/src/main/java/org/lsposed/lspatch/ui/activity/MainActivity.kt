@@ -3,7 +3,7 @@
     ExperimentalMaterial3ExpressiveApi::class,
 )
 
-package org.lsposed.lspatch.ui.activity
+package com.lspatch.android.ui.activity
 
 import android.content.Context
 import android.os.Bundle
@@ -32,8 +32,8 @@ import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import com.ramcosta.composedestinations.DestinationsNavHost
 import com.ramcosta.composedestinations.spec.Direction
 import com.ramcosta.composedestinations.spec.DirectionDestinationSpec
-import org.lsposed.lspatch.ui.navigation.TopLevelRoute
-import org.lsposed.lspatch.ui.navigation.TOP_LEVEL_DESTINATIONS
+import com.lspatch.android.ui.navigation.TopLevelRoute
+import com.lspatch.android.ui.navigation.TOP_LEVEL_DESTINATIONS
 import org.matrix.vector.ui.navigation.FloatingPanelNav
 import org.matrix.vector.ui.navigation.NavPanels
 import org.matrix.vector.ui.navigation.PanelBar
@@ -41,20 +41,20 @@ import org.matrix.vector.ui.navigation.PanelEditDone
 import org.matrix.vector.ui.navigation.TopLevelDestination
 import org.matrix.vector.ui.navigation.decodeNavPanels
 import org.matrix.vector.ui.navigation.encodeNavPanels
-import org.lsposed.lspatch.ui.appearance.LSPFloatingNavSettings
-import org.lsposed.lspatch.ui.page.NavGraphs
-import org.lsposed.lspatch.ui.page.appCurrentDestinationAsState
-import org.lsposed.lspatch.ui.page.destinations.Destination
-import org.lsposed.lspatch.ui.page.destinations.HomeScreenDestination
-import org.lsposed.lspatch.ui.page.destinations.LogsScreenDestination
-import org.lsposed.lspatch.ui.page.destinations.ManageScreenDestination
-import org.lsposed.lspatch.ui.page.destinations.RepoScreenDestination
-import org.lsposed.lspatch.ui.page.startAppDestination
-import org.lsposed.lspatch.ui.appearance.LSPSettings
+import com.lspatch.android.ui.appearance.LSPFloatingNavSettings
+import com.lspatch.android.ui.page.NavGraphs
+import com.lspatch.android.ui.page.appCurrentDestinationAsState
+import com.lspatch.android.ui.page.destinations.Destination
+import com.lspatch.android.ui.page.destinations.HomeScreenDestination
+import com.lspatch.android.ui.page.destinations.LogsScreenDestination
+import com.lspatch.android.ui.page.destinations.ManageScreenDestination
+import com.lspatch.android.ui.page.destinations.RepoScreenDestination
+import com.lspatch.android.ui.page.startAppDestination
+import com.lspatch.android.ui.appearance.LSPSettings
 import org.matrix.vector.ui.locale.LocalizedContent
 import org.matrix.vector.ui.locale.LocalizedOverlay
-import org.lsposed.lspatch.ui.theme.LSPTheme
-import org.lsposed.lspatch.ui.util.LocalSnackbarHost
+import com.lspatch.android.ui.theme.LSPTheme
+import com.lspatch.android.ui.util.LocalSnackbarHost
 import org.matrix.vector.ui.LocalDialogLocalizer
 
 class MainActivity : ComponentActivity() {

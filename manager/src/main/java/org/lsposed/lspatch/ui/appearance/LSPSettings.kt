@@ -1,9 +1,9 @@
-package org.lsposed.lspatch.ui.appearance
+package com.lspatch.android.ui.appearance
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import org.lsposed.lspatch.lspApp
+import com.lspatch.android.lspApp
 import org.matrix.vector.ui.ambience.AmbienceSettings
 import org.matrix.vector.ui.appearance.AppearanceSettings
 import org.matrix.vector.ui.locale.LocaleController

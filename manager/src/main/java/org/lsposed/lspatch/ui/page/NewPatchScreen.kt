@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page
+package com.lspatch.android.ui.page
 
 import android.content.Intent
 import android.text.format.Formatter
@@ -115,29 +115,29 @@ import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import com.ramcosta.composedestinations.result.NavResult
 import com.ramcosta.composedestinations.result.ResultRecipient
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.config.Configs
-import org.lsposed.lspatch.config.MyKeyStore
-import org.lsposed.lspatch.data.model.ModuleBinding
-import org.lsposed.lspatch.data.model.PatchMode
-import org.lsposed.lspatch.data.model.PatchOrigin
-import org.lsposed.lspatch.data.model.PatchRequest
-import org.lsposed.lspatch.data.model.PatchStep
-import org.lsposed.lspatch.data.model.PatchTarget
-import org.lsposed.lspatch.data.model.color
-import org.lsposed.lspatch.data.model.labelRes
-import org.lsposed.lspatch.data.repository.PatchJobHost
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.ui.component.DetailTopBar
-import org.lsposed.lspatch.ui.component.ExportApkLauncher
-import org.lsposed.lspatch.ui.component.PatchLog
-import org.lsposed.lspatch.ui.component.PatchStepList
-import org.lsposed.lspatch.ui.component.rememberExportApk
-import org.lsposed.lspatch.ui.component.settings.KeystoreSetting
-import org.lsposed.lspatch.ui.page.destinations.SelectModulesScreenDestination
-import org.lsposed.lspatch.ui.util.LocalSnackbarHost
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.ShizukuApi
+import com.lspatch.android.R
+import com.lspatch.android.config.Configs
+import com.lspatch.android.config.MyKeyStore
+import com.lspatch.android.data.model.ModuleBinding
+import com.lspatch.android.data.model.PatchMode
+import com.lspatch.android.data.model.PatchOrigin
+import com.lspatch.android.data.model.PatchRequest
+import com.lspatch.android.data.model.PatchStep
+import com.lspatch.android.data.model.PatchTarget
+import com.lspatch.android.data.model.color
+import com.lspatch.android.data.model.labelRes
+import com.lspatch.android.data.repository.PatchJobHost
+import com.lspatch.android.lspApp
+import com.lspatch.android.ui.component.DetailTopBar
+import com.lspatch.android.ui.component.ExportApkLauncher
+import com.lspatch.android.ui.component.PatchLog
+import com.lspatch.android.ui.component.PatchStepList
+import com.lspatch.android.ui.component.rememberExportApk
+import com.lspatch.android.ui.component.settings.KeystoreSetting
+import com.lspatch.android.ui.page.destinations.SelectModulesScreenDestination
+import com.lspatch.android.ui.util.LocalSnackbarHost
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.ShizukuApi
 import org.matrix.vector.ui.PackageRow
 import org.matrix.vector.ui.SharedAlertDialog
 import org.matrix.vector.ui.SheetAction
@@ -163,7 +163,7 @@ fun NewPatchScreen(
     modulesRecipient: ResultRecipient<SelectModulesScreenDestination, SelectedModules>,
     token: String,
 ) {
-    val viewModel = viewModel<org.lsposed.lspatch.ui.viewmodel.NewPatchViewModel>()
+    val viewModel = viewModel<com.lspatch.android.ui.viewmodel.NewPatchViewModel>()
     val step by PatchJobHost.step.collectAsStateWithLifecycle()
     val logLines by PatchJobHost.log.collectAsStateWithLifecycle()
     val request = viewModel.request

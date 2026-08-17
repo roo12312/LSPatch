@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.data.repository
+package com.lspatch.android.data.repository
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

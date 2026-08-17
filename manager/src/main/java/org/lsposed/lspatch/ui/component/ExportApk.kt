@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.component
+package com.lspatch.android.ui.component
 
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -13,8 +13,8 @@ import androidx.compose.ui.res.stringResource
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.ui.util.LocalSnackbarHost
+import com.lspatch.android.R
+import com.lspatch.android.ui.util.LocalSnackbarHost
 import java.io.File
 import java.util.zip.ZipEntry
 import java.util.zip.ZipOutputStream

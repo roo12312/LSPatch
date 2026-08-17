@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.util
+package com.lspatch.android.util
 
 import android.app.Activity
 import android.content.Context

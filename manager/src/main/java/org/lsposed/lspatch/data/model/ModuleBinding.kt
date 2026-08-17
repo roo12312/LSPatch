@@ -1,10 +1,10 @@
-package org.lsposed.lspatch.data.model
+package com.lspatch.android.data.model
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.material3.MaterialTheme
-import org.lsposed.lspatch.R
+import com.lspatch.android.R
 import org.matrix.vector.ui.module.ModuleManifest
 
 /** Where a module in a patch came from, which decides what can still be done with it. */

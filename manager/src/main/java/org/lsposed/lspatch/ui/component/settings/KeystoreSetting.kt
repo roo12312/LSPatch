@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.component.settings
+package com.lspatch.android.ui.component.settings
 
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -60,9 +60,9 @@ import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.config.Configs
-import org.lsposed.lspatch.config.MyKeyStore
+import com.lspatch.android.R
+import com.lspatch.android.config.Configs
+import com.lspatch.android.config.MyKeyStore
 import org.matrix.vector.ui.LocalDialogLocalizer
 import org.matrix.vector.ui.sheetRowColors
 import java.io.IOException

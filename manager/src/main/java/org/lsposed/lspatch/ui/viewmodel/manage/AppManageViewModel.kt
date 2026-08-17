@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.viewmodel.manage
+package com.lspatch.android.ui.viewmodel.manage
 
 import android.util.Base64
 import android.util.Log
@@ -14,12 +14,12 @@ import com.google.gson.Gson
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.lsposed.lspatch.config.ConfigManager
-import org.lsposed.lspatch.share.PatchConfig
-import org.lsposed.lspatch.ui.viewstate.ProcessingState
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.LSPPackageManager.AppInfo
-import org.lsposed.lspatch.util.ShizukuApi
+import com.lspatch.android.config.ConfigManager
+import com.lspatch.android.share.PatchConfig
+import com.lspatch.android.ui.viewstate.ProcessingState
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.LSPPackageManager.AppInfo
+import com.lspatch.android.util.ShizukuApi
 
 class AppManageViewModel : ViewModel() {
 

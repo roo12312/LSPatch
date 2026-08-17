@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.viewmodel.manage
+package com.lspatch.android.ui.viewmodel.manage
 
 import android.util.Log
 import androidx.compose.runtime.derivedStateOf
@@ -10,9 +10,9 @@ import androidx.compose.ui.graphics.ImageBitmap
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.config.ConfigManager
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.util.LSPPackageManager
+import com.lspatch.android.config.ConfigManager
+import com.lspatch.android.lspApp
+import com.lspatch.android.util.LSPPackageManager
 import org.matrix.vector.ui.module.ModuleDetection
 
 class ModuleManageViewModel : ViewModel() {

@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.config
+package com.lspatch.android.config
 
 import android.content.pm.PackageManager
 import android.util.Log
@@ -10,13 +10,13 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.withContext
-import org.lsposed.lspatch.database.LSPDatabase
-import org.lsposed.lspatch.database.entity.Module
-import org.lsposed.lspatch.database.entity.Scope
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.manager.ManagerRemoteServices
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.ModuleLoader
+import com.lspatch.android.database.LSPDatabase
+import com.lspatch.android.database.entity.Module
+import com.lspatch.android.database.entity.Scope
+import com.lspatch.android.lspApp
+import com.lspatch.android.manager.ManagerRemoteServices
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.ModuleLoader
 import org.matrix.vector.ipc.LoadedModule
 import java.io.File
 

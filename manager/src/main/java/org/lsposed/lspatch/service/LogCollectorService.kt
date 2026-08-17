@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.service
+package com.lspatch.android.service
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -17,9 +17,9 @@ import kotlinx.coroutines.cancel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.ShizukuApi
+import com.lspatch.android.R
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.ShizukuApi
 
 /**
  * Keeps LSPatch collecting logs whenever it is alive.

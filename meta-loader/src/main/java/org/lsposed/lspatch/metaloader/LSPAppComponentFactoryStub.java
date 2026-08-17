@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.metaloader;
+package com.lspatch.android.metaloader;
 
 import android.annotation.SuppressLint;
 import android.app.AppComponentFactory;
@@ -12,7 +12,7 @@ import android.util.JsonReader;
 import android.util.Log;
 
 import org.lsposed.hiddenapibypass.HiddenApiBypass;
-import org.lsposed.lspatch.share.Constants;
+import com.lspatch.android.share.Constants;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

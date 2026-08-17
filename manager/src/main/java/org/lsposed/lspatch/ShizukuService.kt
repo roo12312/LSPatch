@@ -1,6 +1,6 @@
-package org.lsposed.lspatch
+package com.lspatch.android
 
-import org.lsposed.lspatch.IShizukuService
+import com.lspatch.android.IShizukuService
 import java.io.BufferedWriter
 import java.io.File
 import java.io.FileWriter

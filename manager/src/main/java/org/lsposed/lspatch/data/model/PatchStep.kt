@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.data.model
+package com.lspatch.android.data.model
 
 import android.util.Log
 import org.matrix.vector.ui.logs.LogLevel

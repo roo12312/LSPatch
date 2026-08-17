@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page
+package com.lspatch.android.ui.page
 
 import android.content.Intent
 import android.net.Uri
@@ -7,9 +7,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
-import org.lsposed.lspatch.data.repository.LSPStoreInstallHost
-import org.lsposed.lspatch.data.repository.LSPStoreSettings
-import org.lsposed.lspatch.data.repository.RepoRepository
+import com.lspatch.android.data.repository.LSPStoreInstallHost
+import com.lspatch.android.data.repository.LSPStoreSettings
+import com.lspatch.android.data.repository.RepoRepository
 
 /**
  * The module details page. A thin host over the shared `org.matrix.vector.ui.store.RepoDetailsScreen`:

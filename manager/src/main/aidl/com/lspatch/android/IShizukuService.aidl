@@ -1,4 +1,4 @@
-package org.lsposed.lspatch;
+package com.lspatch.android;
 
 interface IShizukuService {
     // Executes a single program (no shell: no pipes, globs or redirects) and returns its output.

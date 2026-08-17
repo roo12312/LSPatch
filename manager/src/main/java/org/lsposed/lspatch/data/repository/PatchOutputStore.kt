@@ -1,11 +1,11 @@
-package org.lsposed.lspatch.data.repository
+package com.lspatch.android.data.repository
 
 import android.util.Log
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.share.Constants
-import org.lsposed.lspatch.util.LSPPackageManager
+import com.lspatch.android.lspApp
+import com.lspatch.android.share.Constants
+import com.lspatch.android.util.LSPPackageManager
 import java.io.File
 
 /**

@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.manager
+package com.lspatch.android.manager
 
 import android.net.Uri
 import android.os.Bundle
@@ -7,16 +7,16 @@ import io.github.libxposed.service.IXposedService
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.Executors
 import kotlinx.coroutines.runBlocking
-import org.lsposed.lspatch.config.ConfigManager
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.share.LSPConfig
-import org.lsposed.lspatch.share.remote.FrameworkInfo
-import org.lsposed.lspatch.share.remote.LSPatchModuleService
-import org.lsposed.lspatch.share.remote.LSPatchXposedService
-import org.lsposed.lspatch.share.remote.PreferenceChangeNotifier
-import org.lsposed.lspatch.share.remote.RemoteFileStore
-import org.lsposed.lspatch.share.remote.RemotePreferenceStore
-import org.lsposed.lspatch.share.remote.ScopeSource
+import com.lspatch.android.config.ConfigManager
+import com.lspatch.android.lspApp
+import com.lspatch.android.share.LSPConfig
+import com.lspatch.android.share.remote.FrameworkInfo
+import com.lspatch.android.share.remote.LSPatchModuleService
+import com.lspatch.android.share.remote.LSPatchXposedService
+import com.lspatch.android.share.remote.PreferenceChangeNotifier
+import com.lspatch.android.share.remote.RemoteFileStore
+import com.lspatch.android.share.remote.RemotePreferenceStore
+import com.lspatch.android.share.remote.ScopeSource
 
 /**
  * The manager-mode wiring of the shared remote-service layer — the manager standing in for Vector's

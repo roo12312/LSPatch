@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.service;
+package com.lspatch.android.service;
 
 import android.os.Bundle;
 import android.util.Log;

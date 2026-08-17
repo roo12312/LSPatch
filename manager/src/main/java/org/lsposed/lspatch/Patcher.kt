@@ -1,11 +1,11 @@
-package org.lsposed.lspatch
+package com.lspatch.android
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.lsposed.lspatch.config.Configs
-import org.lsposed.lspatch.config.MyKeyStore
-import org.lsposed.lspatch.data.model.PatchRequest
-import org.lsposed.lspatch.data.repository.PatchOutputStore
+import com.lspatch.android.config.Configs
+import com.lspatch.android.config.MyKeyStore
+import com.lspatch.android.data.model.PatchRequest
+import com.lspatch.android.data.repository.PatchOutputStore
 import org.lsposed.patch.ApkPatcher
 import org.lsposed.patch.KeystoreSpec
 import org.lsposed.patch.ManifestOverrides

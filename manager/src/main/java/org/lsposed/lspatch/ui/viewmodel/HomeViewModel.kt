@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.viewmodel
+package com.lspatch.android.ui.viewmodel
 
 import android.content.pm.ApplicationInfo
 import androidx.compose.runtime.getValue
@@ -12,8 +12,8 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.net.HttpURLConnection
 import java.net.URL
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.share.LSPConfig
+import com.lspatch.android.lspApp
+import com.lspatch.android.share.LSPConfig
 
 /**
  * Holds the LSPatch GitHub repository's public status (stars / forks / open issues / license) for the

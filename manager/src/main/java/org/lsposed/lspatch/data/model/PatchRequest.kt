@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.data.model
+package com.lspatch.android.data.model
 
 /** What a patch is being asked to operate on. */
 sealed interface PatchTarget {

@@ -1,15 +1,15 @@
-package org.lsposed.lspatch.service;
+package com.lspatch.android.service;
 
 import android.content.Context;
 
-import org.lsposed.lspatch.share.remote.LSPatchModuleService;
-import org.lsposed.lspatch.share.remote.LSPatchXposedService;
-import org.lsposed.lspatch.share.remote.FrameworkInfo;
-import org.lsposed.lspatch.share.remote.HotReloadDriver;
-import org.lsposed.lspatch.share.remote.PreferenceChangeNotifier;
-import org.lsposed.lspatch.share.remote.RemoteFileStore;
-import org.lsposed.lspatch.share.remote.RemotePreferenceStore;
-import org.lsposed.lspatch.share.remote.ScopeSource;
+import com.lspatch.android.share.remote.LSPatchModuleService;
+import com.lspatch.android.share.remote.LSPatchXposedService;
+import com.lspatch.android.share.remote.FrameworkInfo;
+import com.lspatch.android.share.remote.HotReloadDriver;
+import com.lspatch.android.share.remote.PreferenceChangeNotifier;
+import com.lspatch.android.share.remote.RemoteFileStore;
+import com.lspatch.android.share.remote.RemotePreferenceStore;
+import com.lspatch.android.share.remote.ScopeSource;
 
 import java.util.Collections;
 import java.util.Map;

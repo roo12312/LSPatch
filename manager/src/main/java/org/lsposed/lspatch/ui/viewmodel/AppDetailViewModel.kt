@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.viewmodel
+package com.lspatch.android.ui.viewmodel
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -8,15 +8,15 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.config.ConfigManager
-import org.lsposed.lspatch.data.model.ModuleBinding
-import org.lsposed.lspatch.data.model.ModuleOrigin
-import org.lsposed.lspatch.data.model.PatchMode
-import org.lsposed.lspatch.data.model.mode
-import org.lsposed.lspatch.data.repository.PatchInputs
-import org.lsposed.lspatch.share.PatchConfig
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.LSPPackageManager.AppInfo
+import com.lspatch.android.config.ConfigManager
+import com.lspatch.android.data.model.ModuleBinding
+import com.lspatch.android.data.model.ModuleOrigin
+import com.lspatch.android.data.model.PatchMode
+import com.lspatch.android.data.model.mode
+import com.lspatch.android.data.repository.PatchInputs
+import com.lspatch.android.share.PatchConfig
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.LSPPackageManager.AppInfo
 import java.io.File
 
 /** How many modules a pending edit adds and removes. */

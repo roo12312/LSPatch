@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page
+package com.lspatch.android.ui.page
 
 import androidx.compose.runtime.Composable
 import com.ramcosta.composedestinations.annotation.Destination

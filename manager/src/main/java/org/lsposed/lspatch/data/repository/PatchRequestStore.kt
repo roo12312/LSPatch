@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.data.repository
+package com.lspatch.android.data.repository
 
 import android.util.Log
 import com.google.gson.GsonBuilder
@@ -8,9 +8,9 @@ import com.google.gson.JsonPrimitive
 import com.google.gson.JsonSerializer
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.lsposed.lspatch.data.model.PatchRequest
-import org.lsposed.lspatch.data.model.PatchTarget
-import org.lsposed.lspatch.lspApp
+import com.lspatch.android.data.model.PatchRequest
+import com.lspatch.android.data.model.PatchTarget
+import com.lspatch.android.lspApp
 import java.io.File
 import java.util.UUID
 

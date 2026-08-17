@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page
+package com.lspatch.android.ui.page
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -23,10 +23,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.data.repository.LSPLogSource
-import org.lsposed.lspatch.ui.page.destinations.LogTraceScreenDestination
-import org.lsposed.lspatch.util.ShizukuApi
+import com.lspatch.android.R
+import com.lspatch.android.data.repository.LSPLogSource
+import com.lspatch.android.ui.page.destinations.LogTraceScreenDestination
+import com.lspatch.android.util.ShizukuApi
 import org.matrix.vector.ui.logs.LogsScreen as SharedLogsScreen
 import rikka.shizuku.Shizuku
 

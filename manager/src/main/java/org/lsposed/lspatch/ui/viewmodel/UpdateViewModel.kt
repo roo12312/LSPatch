@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.viewmodel
+package com.lspatch.android.ui.viewmodel
 
 import android.content.pm.ApplicationInfo
 import androidx.compose.runtime.getValue
@@ -13,9 +13,9 @@ import kotlinx.coroutines.withContext
 import java.io.File
 import java.net.HttpURLConnection
 import java.net.URL
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.share.LSPConfig
-import org.lsposed.lspatch.util.LSPPackageManager
+import com.lspatch.android.lspApp
+import com.lspatch.android.share.LSPConfig
+import com.lspatch.android.util.LSPPackageManager
 import org.matrix.vector.ui.update.VariantChoice
 
 /**

@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.manager
+package com.lspatch.android.manager
 
 import android.os.Bundle
 import android.util.Log
@@ -9,8 +9,8 @@ import java.util.concurrent.CountDownLatch
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 import kotlinx.coroutines.runBlocking
-import org.lsposed.lspatch.config.ConfigManager
-import org.lsposed.lspatch.share.remote.HotReloadDriver
+import com.lspatch.android.config.ConfigManager
+import com.lspatch.android.share.remote.HotReloadDriver
 import org.matrix.vector.ipc.HotReloadOutcome
 import org.matrix.vector.ipc.IHotReloadOutcomeReceiver
 

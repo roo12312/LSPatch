@@ -15,7 +15,7 @@ android {
             proguardFiles("proguard-rules.pro")
         }
     }
-    namespace = "org.lsposed.lspatch.metaloader"
+    namespace = "com.lspatch.android.metaloader"
 }
 
 androidComponents.onVariants { variant ->

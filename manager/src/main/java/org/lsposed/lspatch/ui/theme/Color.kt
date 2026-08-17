@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.theme
+package com.lspatch.android.ui.theme
 
 import androidx.compose.material3.ColorScheme
 import androidx.compose.ui.graphics.Color

@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.util
+package com.lspatch.android.util
 
 import android.content.ComponentName
 import android.content.Context
@@ -16,8 +16,8 @@ import androidx.compose.runtime.setValue
 import dev.rikka.tools.refine.Refine
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.withTimeoutOrNull
-import org.lsposed.lspatch.IShizukuService
-import org.lsposed.lspatch.ShizukuService
+import com.lspatch.android.IShizukuService
+import com.lspatch.android.ShizukuService
 import rikka.shizuku.Shizuku
 import rikka.shizuku.ShizukuBinderWrapper
 import rikka.shizuku.SystemServiceHelper
@@ -92,7 +92,7 @@ object ShizukuApi {
             // Version the service by the app's version code: on an upgrade Shizuku tears down the old
             // instance and starts a fresh one, so a rebuilt ShizukuService (new AIDL, new collector)
             // actually takes effect instead of the app binding to a stale cached process.
-            .version(org.lsposed.lspatch.share.LSPConfig.instance.VERSION_CODE)
+            .version(com.lspatch.android.share.LSPConfig.instance.VERSION_CODE)
 
         try {
             Shizuku.bindUserService(args, userServiceConnection)

@@ -1,6 +1,6 @@
-package org.lsposed.lspatch.data.model
+package com.lspatch.android.data.model
 
-import org.lsposed.lspatch.share.PatchConfig
+import com.lspatch.android.share.PatchConfig
 
 /**
  * The two ways an app can be patched, and the one distinction that changes how it is managed

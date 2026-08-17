@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.component
+package com.lspatch.android.ui.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -36,10 +36,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.data.model.LogLine
-import org.lsposed.lspatch.data.model.PatchStage
-import org.lsposed.lspatch.data.model.PatchStep
+import com.lspatch.android.R
+import com.lspatch.android.data.model.LogLine
+import com.lspatch.android.data.model.PatchStage
+import com.lspatch.android.data.model.PatchStep
 import org.matrix.vector.ui.theme.LogLine as LogLineStyle
 
 /** The row height every step keeps whatever state it is in, so a state flip cannot resize the list. */

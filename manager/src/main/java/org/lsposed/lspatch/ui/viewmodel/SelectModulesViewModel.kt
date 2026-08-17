@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.viewmodel
+package com.lspatch.android.ui.viewmodel
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -7,8 +7,8 @@ import androidx.compose.runtime.toMutableStateList
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.data.model.ModuleBinding
-import org.lsposed.lspatch.util.LSPPackageManager
+import com.lspatch.android.data.model.ModuleBinding
+import com.lspatch.android.util.LSPPackageManager
 
 /** The installed Xposed modules, and which of them the user has ticked. */
 class SelectModulesViewModel : ViewModel() {

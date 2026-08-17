@@ -1,6 +1,6 @@
 package org.lsposed.patch;
 
-import org.lsposed.lspatch.share.Constants;
+import com.lspatch.android.share.Constants;
 
 import java.io.File;
 import java.util.ArrayList;

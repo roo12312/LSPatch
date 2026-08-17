@@ -1,12 +1,12 @@
-package org.lsposed.lspatch.ui.page
+package com.lspatch.android.ui.page
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
-import org.lsposed.lspatch.data.repository.LSPStoreSettings
-import org.lsposed.lspatch.data.repository.RepoRepository
-import org.lsposed.lspatch.ui.page.destinations.RepoDetailsScreenDestination
+import com.lspatch.android.data.repository.LSPStoreSettings
+import com.lspatch.android.data.repository.RepoRepository
+import com.lspatch.android.ui.page.destinations.RepoDetailsScreenDestination
 
 /**
  * The Store tab. A thin host around the shared Store list ([org.matrix.vector.ui.store.RepoScreen]):

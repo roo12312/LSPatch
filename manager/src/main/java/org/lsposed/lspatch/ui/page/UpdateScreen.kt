@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page
+package com.lspatch.android.ui.page
 
 import android.content.Intent
 import android.content.pm.ApplicationInfo
@@ -40,10 +40,10 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.share.LSPConfig
-import org.lsposed.lspatch.ui.viewmodel.UpdateViewModel
+import com.lspatch.android.R
+import com.lspatch.android.lspApp
+import com.lspatch.android.share.LSPConfig
+import com.lspatch.android.ui.viewmodel.UpdateViewModel
 import org.matrix.vector.ui.store.StoreHtmlPane
 import org.matrix.vector.ui.store.releaseMarkdownToHtml
 import org.matrix.vector.ui.update.VariantChoice

@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.loader.util;
+package com.lspatch.android.loader.util;
 
 import java.io.IOException;
 import java.nio.file.FileVisitResult;

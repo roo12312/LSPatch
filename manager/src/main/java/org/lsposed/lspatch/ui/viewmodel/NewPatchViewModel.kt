@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.viewmodel
+package com.lspatch.android.ui.viewmodel
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -8,12 +8,12 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.data.model.ModuleBinding
-import org.lsposed.lspatch.data.model.ModuleRef
-import org.lsposed.lspatch.data.model.PatchMode
-import org.lsposed.lspatch.data.model.PatchRequest
-import org.lsposed.lspatch.data.repository.PatchRequestStore
-import org.lsposed.lspatch.util.LSPPackageManager
+import com.lspatch.android.data.model.ModuleBinding
+import com.lspatch.android.data.model.ModuleRef
+import com.lspatch.android.data.model.PatchMode
+import com.lspatch.android.data.model.PatchRequest
+import com.lspatch.android.data.repository.PatchRequestStore
+import com.lspatch.android.util.LSPPackageManager
 import org.lsposed.patch.ManifestOverrides
 import java.io.File
 

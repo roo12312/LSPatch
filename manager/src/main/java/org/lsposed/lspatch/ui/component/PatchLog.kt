@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.component
+package com.lspatch.android.ui.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.horizontalScroll
@@ -24,9 +24,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.data.model.LogLine
-import org.lsposed.lspatch.data.model.toSharedLogLevel
+import com.lspatch.android.R
+import com.lspatch.android.data.model.LogLine
+import com.lspatch.android.data.model.toSharedLogLevel
 import org.matrix.vector.ui.logs.levelColor
 import org.matrix.vector.ui.theme.LogLine as LogLineStyle
 

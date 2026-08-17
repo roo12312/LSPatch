@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page
+package com.lspatch.android.ui.page
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.pager.rememberPagerState
@@ -16,14 +16,14 @@ import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
-import org.lsposed.lspatch.R
+import com.lspatch.android.R
 import org.matrix.vector.ui.SearchField
 import org.matrix.vector.ui.TabbedListPanel
-import org.lsposed.lspatch.ui.page.manage.AppManageBody
-import org.lsposed.lspatch.ui.page.manage.AppManageFab
-import org.lsposed.lspatch.ui.page.manage.ModuleManageBody
-import org.lsposed.lspatch.ui.viewmodel.manage.AppManageViewModel
-import org.lsposed.lspatch.ui.viewmodel.manage.ModuleManageViewModel
+import com.lspatch.android.ui.page.manage.AppManageBody
+import com.lspatch.android.ui.page.manage.AppManageFab
+import com.lspatch.android.ui.page.manage.ModuleManageBody
+import com.lspatch.android.ui.viewmodel.manage.AppManageViewModel
+import com.lspatch.android.ui.viewmodel.manage.ModuleManageViewModel
 
 /**
  * Two lists under one header: the apps LSPatch has patched, and the Xposed modules installed

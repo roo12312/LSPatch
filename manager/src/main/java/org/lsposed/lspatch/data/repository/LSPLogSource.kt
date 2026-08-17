@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.data.repository
+package com.lspatch.android.data.repository
 
 import android.content.Context
 import android.net.Uri
@@ -11,14 +11,14 @@ import java.util.Locale
 import java.util.zip.ZipEntry
 import java.util.zip.ZipOutputStream
 import kotlinx.coroutines.Dispatchers
-import org.lsposed.lspatch.share.LSPConfig
+import com.lspatch.android.share.LSPConfig
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.withContext
-import org.lsposed.lspatch.service.LogCollectorService
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.ShizukuApi
+import com.lspatch.android.service.LogCollectorService
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.ShizukuApi
 import org.matrix.vector.ui.logs.LogContent
 import org.matrix.vector.ui.logs.LogFacets
 import org.matrix.vector.ui.logs.LogIndex

@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.data.repository
+package com.lspatch.android.data.repository
 
 import android.content.pm.PackageInstaller
 import java.io.File
@@ -12,9 +12,9 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.ShizukuApi
+import com.lspatch.android.lspApp
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.ShizukuApi
 import org.matrix.vector.ui.store.InstallStep
 import org.matrix.vector.ui.store.ReleaseAsset
 import org.matrix.vector.ui.store.RepoVersion

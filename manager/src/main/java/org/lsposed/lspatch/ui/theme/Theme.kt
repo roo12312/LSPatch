@@ -1,6 +1,6 @@
-package org.lsposed.lspatch.ui.theme
+package com.lspatch.android.ui.theme
 
-import org.lsposed.lspatch.util.findActivity
+import com.lspatch.android.util.findActivity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
@@ -15,7 +15,7 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.ViewCompat
-import org.lsposed.lspatch.ui.appearance.LSPATCH_SEED
+import com.lspatch.android.ui.appearance.LSPATCH_SEED
 import org.matrix.vector.ui.theme.SeedScheme
 import org.matrix.vector.ui.theme.ThemeMode
 import org.matrix.vector.ui.theme.toAmoled

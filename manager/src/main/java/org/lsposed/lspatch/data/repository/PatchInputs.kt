@@ -1,17 +1,17 @@
-package org.lsposed.lspatch.data.repository
+package com.lspatch.android.data.repository
 
 import android.util.Base64
 import android.util.Log
 import com.google.gson.Gson
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.lsposed.lspatch.data.model.ModuleBinding
-import org.lsposed.lspatch.data.model.ModuleOrigin
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.share.Constants
-import org.lsposed.lspatch.share.PatchConfig
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.LSPPackageManager.AppInfo
+import com.lspatch.android.data.model.ModuleBinding
+import com.lspatch.android.data.model.ModuleOrigin
+import com.lspatch.android.lspApp
+import com.lspatch.android.share.Constants
+import com.lspatch.android.share.PatchConfig
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.LSPPackageManager.AppInfo
 import java.io.File
 import java.io.FileNotFoundException
 import java.util.zip.ZipFile

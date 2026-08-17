@@ -1,6 +1,6 @@
-package org.lsposed.lspatch.loader.util;
+package com.lspatch.android.loader.util;
 
-import org.lsposed.lspatch.loader.BuildConfig;
+import com.lspatch.android.loader.BuildConfig;
 
 public class XLog {
 

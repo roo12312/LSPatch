@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.share.remote;
+package com.lspatch.android.share.remote;
 
 /**
  * The framework-identity answers both services give, gathered once so the shared stubs stay free of

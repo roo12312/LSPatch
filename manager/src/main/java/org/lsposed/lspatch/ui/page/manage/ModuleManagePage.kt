@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page.manage
+package com.lspatch.android.ui.page.manage
 
 import android.content.Intent
 import android.net.Uri
@@ -45,7 +45,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.ui.text.style.TextOverflow
-import org.lsposed.lspatch.R
+import com.lspatch.android.R
 import org.matrix.vector.ui.ActionDrawerHeader
 import org.matrix.vector.ui.ActionDrawerItem
 import org.matrix.vector.ui.LocalDialogLocalizer
@@ -53,8 +53,8 @@ import org.matrix.vector.ui.ApiBadge
 import org.matrix.vector.ui.ModuleRow
 import org.matrix.vector.ui.PanelEmptyState
 import org.matrix.vector.ui.REACH_ICON_SIZE
-import org.lsposed.lspatch.ui.viewmodel.manage.ModuleManageViewModel
-import org.lsposed.lspatch.util.LSPPackageManager
+import com.lspatch.android.ui.viewmodel.manage.ModuleManageViewModel
+import com.lspatch.android.util.LSPPackageManager
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

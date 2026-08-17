@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.data.repository
+package com.lspatch.android.data.repository
 
 import android.content.pm.PackageInstaller
 import android.util.Log
@@ -7,15 +7,15 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import org.lsposed.lspatch.Patcher
-import org.lsposed.lspatch.config.ConfigManager
-import org.lsposed.lspatch.data.model.LogLine
-import org.lsposed.lspatch.data.model.PatchRequest
-import org.lsposed.lspatch.data.model.PatchStage
-import org.lsposed.lspatch.data.model.PatchStep
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.util.LSPPackageManager
-import org.lsposed.lspatch.util.ShizukuApi
+import com.lspatch.android.Patcher
+import com.lspatch.android.config.ConfigManager
+import com.lspatch.android.data.model.LogLine
+import com.lspatch.android.data.model.PatchRequest
+import com.lspatch.android.data.model.PatchStage
+import com.lspatch.android.data.model.PatchStep
+import com.lspatch.android.lspApp
+import com.lspatch.android.util.LSPPackageManager
+import com.lspatch.android.util.ShizukuApi
 import org.lsposed.patch.util.Logger
 import java.io.File
 

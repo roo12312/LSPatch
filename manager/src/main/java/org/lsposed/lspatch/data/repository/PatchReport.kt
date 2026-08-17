@@ -1,14 +1,14 @@
-package org.lsposed.lspatch.data.repository
+package com.lspatch.android.data.repository
 
 import android.os.Build
-import org.lsposed.lspatch.config.Configs
-import org.lsposed.lspatch.config.MyKeyStore
-import org.lsposed.lspatch.data.model.LogLine
-import org.lsposed.lspatch.data.model.PatchRequest
-import org.lsposed.lspatch.data.model.PatchTarget
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.share.LSPConfig
-import org.lsposed.lspatch.util.ShizukuApi
+import com.lspatch.android.config.Configs
+import com.lspatch.android.config.MyKeyStore
+import com.lspatch.android.data.model.LogLine
+import com.lspatch.android.data.model.PatchRequest
+import com.lspatch.android.data.model.PatchTarget
+import com.lspatch.android.lspApp
+import com.lspatch.android.share.LSPConfig
+import com.lspatch.android.util.ShizukuApi
 import rikka.shizuku.Shizuku
 import java.io.File
 import java.text.SimpleDateFormat

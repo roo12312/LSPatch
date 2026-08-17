@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.navigation
+package com.lspatch.android.ui.navigation
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Article

@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.ui.page
+package com.lspatch.android.ui.page
 
 import android.os.Parcelable
 import androidx.compose.foundation.layout.Column
@@ -36,8 +36,8 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.result.ResultBackNavigator
 import kotlinx.parcelize.Parcelize
-import org.lsposed.lspatch.R
-import org.lsposed.lspatch.ui.viewmodel.SelectModulesViewModel
+import com.lspatch.android.R
+import com.lspatch.android.ui.viewmodel.SelectModulesViewModel
 import org.matrix.vector.ui.ApiBadge
 import org.matrix.vector.ui.ModuleRow
 import org.matrix.vector.ui.PanelEmptyState

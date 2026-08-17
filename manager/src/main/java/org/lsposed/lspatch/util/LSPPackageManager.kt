@@ -1,4 +1,4 @@
-package org.lsposed.lspatch.util
+package com.lspatch.android.util
 
 import android.annotation.SuppressLint
 import android.app.PendingIntent
@@ -27,11 +27,11 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.parcelize.Parcelize
 import me.zhanghai.android.appiconloader.AppIconLoader
-import org.lsposed.lspatch.config.ConfigManager
-import org.lsposed.lspatch.data.model.ModuleBinding
-import org.lsposed.lspatch.data.model.ModuleOrigin
-import org.lsposed.lspatch.lspApp
-import org.lsposed.lspatch.share.Constants
+import com.lspatch.android.config.ConfigManager
+import com.lspatch.android.data.model.ModuleBinding
+import com.lspatch.android.data.model.ModuleOrigin
+import com.lspatch.android.lspApp
+import com.lspatch.android.share.Constants
 import org.matrix.vector.ui.module.ModuleDetection
 import java.io.File
 import java.io.IOException
@@ -48,7 +48,7 @@ object LSPPackageManager {
 
     const val STATUS_USER_CANCELLED = -2
 
-    private const val INSTALL_ACTION = "org.lsposed.lspatch.action.INSTALL_RESULT"
+    private const val INSTALL_ACTION = "com.lspatch.android.action.INSTALL_RESULT"
 
     @Parcelize
     class AppInfo(val app: ApplicationInfo, val label: String, val isModule: Boolean = false) : Parcelable {
